@@ -1,0 +1,10 @@
+/* ===== ADD TO THE END OF style.css (nothing existing is changed) ===== */
+.logo img.lg{height:26px;width:auto;vertical-align:middle;display:inline-block}
+.sf .mz{margin-top:8px;display:flex;align-items:center;gap:6px}.sf .mz img.lg{height:16px}
+.sbox{width:100%;border:1.5px solid var(--line);border-radius:999px;padding:11px 18px;font:inherit;font-size:.9rem;background:#fff;margin:6px 0 4px}
+.sbox:focus,.tsearch:focus{outline:none;border-color:var(--blue)}
+.tsearch{border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;font:inherit;font-size:.82rem;width:190px;background:var(--bg)}
+.pkbox{max-height:210px;overflow:auto;border:1px solid var(--line);border-radius:14px;padding:10px 10px 0;background:#fff;margin-bottom:18px}
+.pkbox .chip{margin:0 8px 8px 0;padding:8px 14px;font-size:.85rem}
+footer .fl{margin-top:10px;display:flex;gap:16px;flex-wrap:wrap}footer .fl a{color:#fff}
+@media(max-width:860px){.tsearch{width:120px}}
